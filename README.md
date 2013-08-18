@@ -8,8 +8,11 @@ Requisites:
 	- Install VirtualBox: https://www.virtualbox.org
 
 1- Clone this repository
+
 2- Move to the directory you cloned it
+
 3- Execute 'vagrant up' a wait untill you get your VM
+
 4- Login and use it!
 
 	Username: vagrant

@@ -17,7 +17,8 @@ then
     apt-get install -y vim git subversion curl
     apt-get install -y memcached build-essential
     apt-get install -y nodejs
-
+    apt-get install -y npm
+    apt-get install -y node-express
 
     # Install latest stable version of mongo
     apt-get install mongodb-10gen
