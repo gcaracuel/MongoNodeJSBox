@@ -14,3 +14,6 @@ Requisites:
 
 	Username: vagrant
 	Password: vagrant
+
+
+*If you prefer ssh your VM with: ssh vagrant@192.168.10.10
