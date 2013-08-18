@@ -27,7 +27,7 @@ then
     ln -s /vagrant/www /var/www
 
     # Victory!
-    echo "You're all done!  Your default node server is now running. Find it in node-mongo-vagrant/www/default/"
+    echo "FINISHED!  Your default node server is now running. Find it in node-mongo-vagrant/www/default/"
 
     # Run it
     node /var/www/default/server.js
