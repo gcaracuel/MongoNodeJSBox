@@ -10,15 +10,19 @@ then
     apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
     echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/10gen.list
 
- 
+    # Add Chris Lea's Node repo
+    apt-key adv --keyserver keyserver.ubuntu.com --recv C7917B12
+    echo 'deb http://ppa.launchpad.net/chris-lea/node.js/ubuntu precise main' | sudo tee /etc/apt/sources.list.d/node.list
+
+
     # Update and begin installing some utility tools
     apt-get -y update
+
     apt-get install -y python-software-properties
     apt-get install -y vim git subversion curl
     apt-get install -y memcached build-essential
-    apt-get install -y nodejs
+    apt-get install -y nodejs=0.10.16-1chl1~precise1
     apt-get install -y npm
-    apt-get install -y node-express
 
     # Install latest stable version of mongo
     apt-get install mongodb-10gen
