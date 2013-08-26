@@ -21,7 +21,7 @@ then
     apt-get install -y python-software-properties
     apt-get install -y vim git subversion curl
     apt-get install -y memcached build-essential
-    apt-get install -y nodejs=0.10.16-1chl1~precise1
+    apt-get install -y nodejs=0.10.17-1chl1~precise1
     apt-get install -y npm
 
     # Install latest stable version of mongo
